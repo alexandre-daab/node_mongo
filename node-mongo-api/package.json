@@ -1,0 +1,24 @@
+{
+  "name": "node_mongo",
+  "version": "0.0.1",
+  "description": "POC para node com mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Alexandre Augustus Borges",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies":{
+    "nodemon": "^2.0.7"
+  }
+}
